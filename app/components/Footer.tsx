@@ -1,5 +1,6 @@
 import { FiClock, FiInstagram, FiMapPin, FiPhone } from "react-icons/fi";
 import { FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { assetPath } from "../lib/paths";
 
 export function Footer({ photoBand = true }: { photoBand?: boolean }) {
   return (
@@ -10,8 +11,8 @@ export function Footer({ photoBand = true }: { photoBand?: boolean }) {
           <div className="footer-grid">
             <div className="footer-brand">
               <div className="logos footer-logos">
-                <img src="/assets/logo-taman-nasional.png" alt="Logo Taman Nasional Kepulauan Seribu" />
-                <img src="/assets/logo-konservasi.png" alt="Logo Konservasi Pulau Pramuka" />
+                <img src={assetPath("/assets/logo-taman-nasional.png")} alt="Logo Taman Nasional Kepulauan Seribu" />
+                <img src={assetPath("/assets/logo-konservasi.png")} alt="Logo Konservasi Pulau Pramuka" />
               </div>
               <p>Konservasi Penyu Pulau Pramuka</p>
               <p>Bagian dari kawasan Taman Nasional Kepulauan Seribu.</p>

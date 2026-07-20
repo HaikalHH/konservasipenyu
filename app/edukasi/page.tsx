@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { assetPath } from "../lib/paths";
 
 export const metadata: Metadata = { title: "Edukasi & Konservasi" };
 
@@ -21,7 +22,7 @@ export default function EducationPage() {
           <p className="eyebrow">6 di antaranya ada di perairan Indonesia dan 2 jenis di Kepulauan Seribu</p>
           <div className="species-grid">
             <article className="species-card">
-              <img className="species-visual" src="/assets/penyu-hijau.png" alt="Penyu hijau" />
+              <img className="species-visual" src={assetPath("/assets/penyu-hijau.png")} alt="Penyu hijau" />
               <h3>Penyu Hijau</h3>
               <em>Chelonia mydas</em>
               <ul>
@@ -33,7 +34,7 @@ export default function EducationPage() {
               </ul>
             </article>
             <article className="species-card">
-              <img className="species-visual" src="/assets/penyu-sisik.png" alt="Penyu sisik" />
+              <img className="species-visual" src={assetPath("/assets/penyu-sisik.png")} alt="Penyu sisik" />
               <h3>Penyu Sisik</h3>
               <em>Eretmochelys imbricata</em>
               <ul>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { FiAlertTriangle } from "react-icons/fi";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { assetPath } from "../lib/paths";
 
 export const metadata: Metadata = { title: "Program Ekowisata" };
 
@@ -20,7 +21,7 @@ export default function ProgramPage() {
         <div className="container">
           <h2 className="section-title">Tur Kawasan Konservasi</h2>
           <figure className="phone-frame">
-            <img src="/assets/video-tukik.jpg" alt="Petugas menunjukkan tukik di area perawatan" />
+            <img src={assetPath("/assets/video-tukik.jpg")} alt="Petugas menunjukkan tukik di area perawatan" />
           </figure>
         </div>
       </section>

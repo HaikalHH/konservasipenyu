@@ -52,7 +52,7 @@ img {
 
 .top-ribbon {
   height: 30px;
-  background-image: url("/assets/gradient-laut.png");
+  background-image: var(--gradient-laut);
   background-size: cover;
 }
 
@@ -161,18 +161,18 @@ img {
 }
 
 .hero-home::after {
-  background-image: url("/assets/hero-penyu.jpg");
+  background-image: var(--hero-penyu);
   background-position: center 53%;
 }
 
 .hero-education::after {
-  background-image: url("/assets/hero-edukasi.jpg");
+  background-image: var(--hero-edukasi);
   background-position: center 50%;
 }
 
 .hero-program {
   min-height: 480px;
-  background-image: url("/assets/hero-ekowisata.jpg");
+  background-image: var(--hero-ekowisata);
   background-position: center 45%;
 }
 
@@ -331,7 +331,7 @@ img {
 
 .impact-section {
   padding: 50px 24px 55px;
-  background-image: url("/assets/gradient-laut.png");
+  background-image: var(--gradient-laut);
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -357,12 +357,12 @@ img {
 }
 
 .photo-band.community {
-  background-image: url("/assets/kunjungan-edukasi.jpg");
+  background-image: var(--kunjungan-edukasi);
   background-position: center 47%;
 }
 
 .photo-band.mangrove {
-  background-image: url("/assets/jalur-mangrove.jpg");
+  background-image: var(--jalur-mangrove);
   background-position: center;
 }
 
@@ -455,7 +455,7 @@ img {
 
 .care-section {
   padding: 110px 0 120px;
-  background-image: url("/assets/gradient-kabut.png");
+  background-image: var(--gradient-kabut);
   background-size: 100% 100%;
 }
 
@@ -483,7 +483,7 @@ img {
 .tour-section {
   min-height: 730px;
   padding: 54px 0 76px;
-  background-image: url("/assets/gradient-kabut.png");
+  background-image: var(--gradient-kabut);
   background-size: 100% 100%;
   text-align: center;
 }
@@ -513,7 +513,7 @@ img {
 
 .program-rules {
   padding: 72px 24px 90px;
-  background-image: url("/assets/gradient-laut.png");
+  background-image: var(--gradient-laut);
   background-size: cover;
 }
 
@@ -547,7 +547,7 @@ img {
 
 .reservation-hero {
   padding: 52px 0 54px;
-  background-image: url("/assets/gradient-laut.png");
+  background-image: var(--gradient-laut);
   background-size: cover;
   color: #fff;
 }
@@ -749,7 +749,7 @@ img {
 
 .reservation-cta {
   padding: 64px 0 94px;
-  background-image: url("/assets/gradient-laut.png");
+  background-image: var(--gradient-laut);
   background-size: cover;
   color: #fff;
 }

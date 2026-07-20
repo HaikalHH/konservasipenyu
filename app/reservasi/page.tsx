@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { ReservationForm } from "../components/ReservationForm";
+import { assetPath } from "../lib/paths";
 
 export const metadata: Metadata = { title: "Reservasi" };
 
@@ -48,7 +49,7 @@ export default function ReservationPage() {
         <div className="container">
           <h2>Lokasi dan akses menuju Pulau Pramuka</h2>
           <a href="https://maps.google.com/?q=Pulau+Pramuka" target="_blank" rel="noreferrer" aria-label="Buka lokasi Pulau Pramuka di Google Maps">
-            <img className="map-frame" src="/assets/peta-pulau-pramuka.png" alt="Peta lokasi pusat konservasi penyu di Pulau Pramuka" />
+            <img className="map-frame" src={assetPath("/assets/peta-pulau-pramuka.png")} alt="Peta lokasi pusat konservasi penyu di Pulau Pramuka" />
           </a>
         </div>
       </section>

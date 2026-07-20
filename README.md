@@ -25,3 +25,8 @@ npm run build
 
 Formulir reservasi menampilkan konfirmasi di sisi browser dan tidak menyimpan
 data ke server.
+
+## GitHub Pages
+
+Setiap push ke branch `main` menjalankan workflow GitHub Actions yang membuat
+static export dan menerbitkan folder `out` ke GitHub Pages.

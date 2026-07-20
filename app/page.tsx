@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { assetPath } from "./lib/paths";
 
 export const metadata: Metadata = {
   title: "Beranda",
@@ -15,14 +17,14 @@ export default function HomePage() {
           <h1>Jelajahi, Pelajari, Lestarikan</h1>
           <h2>Petualangan konservasi penyu di Pulau Pramuka</h2>
           <p>Nikmati pengalaman ekowisata yang tidak hanya menyenangkan, tetapi juga memberikan wawasan tentang kehidupan penyu dan pentingnya menjaga ekosistem laut. Di Konservasi Penyu Pulau Pramuka, setiap kunjungan menjadi kesempatan untuk mengenal proses penyelamatan, perawatan, dan pelestarian penyu secara lebih dekat.</p>
-          <a className="primary-button" href="/reservasi">Rencanakan Kunjungan</a>
+          <Link className="primary-button" href="/reservasi">Rencanakan Kunjungan</Link>
         </div>
       </section>
 
       <section className="section" id="tentang">
         <div className="container intro-grid">
           <div className="framed-photo">
-            <img src="/assets/papan-konservasi.jpg" alt="Papan Balai Taman Nasional Kepulauan Seribu" />
+            <img src={assetPath("/assets/papan-konservasi.jpg")} alt="Papan Balai Taman Nasional Kepulauan Seribu" />
           </div>
           <div>
             <h2 className="section-title">Mengenal Konservasi Penyu Pulau Pramuka</h2>
