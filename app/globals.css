@@ -504,10 +504,12 @@ img {
   overflow: hidden;
 }
 
-.phone-frame img {
+.phone-frame video {
+  display: block;
   width: 100%;
   aspect-ratio: 9 / 17;
   border-radius: 35px;
+  background: #061f2f;
   object-fit: cover;
 }
 

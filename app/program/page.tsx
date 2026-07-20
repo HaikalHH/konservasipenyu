@@ -21,7 +21,16 @@ export default function ProgramPage() {
         <div className="container">
           <h2 className="section-title">Tur Kawasan Konservasi</h2>
           <figure className="phone-frame">
-            <img src={assetPath("/assets/video-tukik.jpg")} alt="Petugas menunjukkan tukik di area perawatan" />
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster={assetPath("/assets/tur-konservasi-web-poster.jpg")}
+              aria-label="Video tur kawasan konservasi penyu"
+            >
+              <source src={assetPath("/assets/tur-konservasi-web.mp4")} type="video/mp4" />
+              Browser Anda tidak mendukung pemutaran video.
+            </video>
           </figure>
         </div>
       </section>

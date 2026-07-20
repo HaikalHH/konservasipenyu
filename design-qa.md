@@ -54,4 +54,20 @@ The implementation retains the PDF's four-page information architecture, blue na
 
 - P3: Recreate the exact layered wave silhouette above the footer if pixel-level decorative parity is required.
 
+## Video replacement QA
+
+- Source visual truth: `H:\Project\TA BB\tmp\pdfs\pages\page-3.png`, supplemented by the user-provided `C:\Users\haika\Downloads\0717.mov` as the intended moving content.
+- Implementation screenshot: `H:\Project\TA BB\tmp\qa\program-video-full.png`.
+- Browser viewport: 1912 x 948; Program Ekowisata route; video poster visible with native controls.
+- Full-view comparison: `H:\Project\TA BB\tmp\qa\comparisons\program-video-compare.jpg`.
+- Focused comparison: `H:\Project\TA BB\tmp\qa\comparisons\program-video-focus-compare.jpg`.
+- Fonts and typography: unchanged from the previously passed Program page and still aligned with the reference hierarchy.
+- Spacing and layout rhythm: the 9:17 video remains centered inside the same rounded phone frame with no overflow or section-height regression.
+- Colors and visual tokens: the white/gray phone frame and cyan-to-blue background remain unchanged.
+- Image and video fidelity: the placeholder still image was replaced with the supplied vertical footage; its poster is an actual frame from that video, and H.264/AAC playback metadata loaded successfully at 720 x 1280.
+- Copy and content: page copy is unchanged; the video has an Indonesian accessible label and fallback message.
+- Interaction test: native play control advanced playback from 0 to 1.76 seconds, then paused successfully. Duration reported as 67.75 seconds with ready state 4.
+- Console check: no errors or warnings; only normal React development and HMR informational messages.
+- Comparison result: no new P0/P1/P2 mismatch. Native player controls are an intentional functional addition inside the reference frame.
+
 final result: passed
