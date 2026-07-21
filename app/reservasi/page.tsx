@@ -56,7 +56,7 @@ export default function ReservationPage() {
 
       <section className="reservation-cta">
         <div className="container">
-          <h2>Jelajahi, Pelajari, Lestarikan</h2>
+          <h2>Jelajahi, Pelajari, <span>Lestarikan</span></h2>
           <h2>Petualangan konservasi penyu di Pulau Pramuka</h2>
         </div>
       </section>

@@ -5,7 +5,7 @@ import { assetPath } from "../lib/paths";
 export function Footer({ photoBand = true }: { photoBand?: boolean }) {
   return (
     <>
-      {photoBand && <div className="photo-band mangrove" aria-hidden="true" />}
+      {photoBand && <div className="photo-band mangrove wave-photo" aria-hidden="true" />}
       <footer className="site-footer">
         <div className="container">
           <div className="footer-grid">
@@ -24,14 +24,14 @@ export function Footer({ photoBand = true }: { photoBand?: boolean }) {
                 <p>Desa Wisata Pulau Pramuka, Kelurahan Pulau Panggang, Kecamatan Kepulauan Seribu Utara, Kabupaten Administrasi Kepulauan Seribu, DKI Jakarta.</p>
               </div>
               <div className="footer-row"><FiClock size={23} aria-hidden="true" /><p>08.00 s/d 15.00</p></div>
-              <div className="footer-row"><FiPhone size={23} aria-hidden="true" /><p>+62 81563936299</p></div>
+              <div className="footer-row"><FiPhone size={23} aria-hidden="true" /><p>+62 811-954-545</p></div>
             </div>
             <div className="footer-social">
               <h2 className="footer-heading">Media Sosial</h2>
               <div className="social-links">
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><FiInstagram /></a>
-                <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube"><FaYoutube /></a>
-                <a href="https://wa.me/6281563936299" target="_blank" rel="noreferrer" aria-label="WhatsApp"><FaWhatsapp /></a>
+                <a href="https://instagram.com/konservasipenyu.pramuka" target="_blank" rel="noreferrer" aria-label="Instagram Konservasi Penyu Pulau Pramuka"><FiInstagram /><span>@konservasipenyu.pramuka</span></a>
+                <a href="https://youtube.com/@konservasipenyu.pramuka" target="_blank" rel="noreferrer" aria-label="YouTube Konservasi Penyu Pulau Pramuka"><FaYoutube /><span>konservasipenyu.pramuka</span></a>
+                <a className="social-whatsapp" href="https://wa.me/62811954545" target="_blank" rel="noreferrer" aria-label="WhatsApp Konservasi Penyu Pulau Pramuka"><FaWhatsapp /><span>WhatsApp</span></a>
               </div>
             </div>
           </div>

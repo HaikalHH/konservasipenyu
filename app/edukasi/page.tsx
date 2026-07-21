@@ -71,6 +71,8 @@ export default function EducationPage() {
             <p>Pengunjung dapat ikut mendukung konservasi melalui tindakan sederhana selama berada di kawasan konservasi.</p>
             <p>Jaga kebersihan, hindari menyentuh penyu tanpa arahan petugas, jangan menggunakan cahaya berlebihan saat mengambil gambar di penangkaran, dan ikuti seluruh ketentuan kunjungan.</p>
           </article>
+          <img className="care-turtle care-turtle-left" src={assetPath("/assets/turtle-front.png")} alt="" aria-hidden="true" />
+          <img className="care-turtle care-turtle-right" src={assetPath("/assets/turtle-side.png")} alt="" aria-hidden="true" />
         </div>
       </section>
       <Footer />

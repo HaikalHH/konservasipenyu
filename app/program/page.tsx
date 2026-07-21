@@ -33,6 +33,9 @@ export default function ProgramPage() {
             </video>
           </figure>
         </div>
+        <img className="tour-turtle tour-turtle-left" src={assetPath("/assets/turtle-front.png")} alt="" aria-hidden="true" />
+        <img className="tour-turtle tour-turtle-right" src={assetPath("/assets/turtle-side.png")} alt="" aria-hidden="true" />
+        <img className="tour-reef" src={assetPath("/assets/coral-reef.png")} alt="" aria-hidden="true" />
       </section>
 
       <section className="program-rules">

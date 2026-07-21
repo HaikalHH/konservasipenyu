@@ -19,6 +19,7 @@ const backgroundImages = {
   "--hero-ekowisata": `url("${assetPath("/assets/hero-ekowisata.jpg")}")`,
   "--kunjungan-edukasi": `url("${assetPath("/assets/kunjungan-edukasi.jpg")}")`,
   "--jalur-mangrove": `url("${assetPath("/assets/jalur-mangrove.jpg")}")`,
+  "--reservation-turtle": `url("${assetPath("/assets/reservation-turtle.jpg")}")`,
 } as CSSProperties & Record<`--${string}`, string>;
 
 export const metadata: Metadata = {

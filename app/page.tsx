@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header active="home" />
       <section className="hero hero-home">
         <div className="hero-content">
-          <h1>Jelajahi, Pelajari, Lestarikan</h1>
+          <h1>Jelajahi, Pelajari, <span>Lestarikan</span></h1>
           <h2>Petualangan konservasi penyu di Pulau Pramuka</h2>
           <p>Nikmati pengalaman ekowisata yang tidak hanya menyenangkan, tetapi juga memberikan wawasan tentang kehidupan penyu dan pentingnya menjaga ekosistem laut. Di Konservasi Penyu Pulau Pramuka, setiap kunjungan menjadi kesempatan untuk mengenal proses penyelamatan, perawatan, dan pelestarian penyu secara lebih dekat.</p>
           <Link className="primary-button" href="/reservasi">Rencanakan Kunjungan</Link>
@@ -38,7 +38,7 @@ export default function HomePage() {
         <h2>Wisata yang Memberikan Dampak</h2>
         <p>Kunjungan Anda bukan sekadar perjalanan wisata. Setiap pengalaman, pengetahuan, dan kepedulian yang dibawa pulang menjadi bagian dari upaya bersama untuk menjaga keberlangsungan hidup penyu di masa depan.</p>
       </section>
-      <div className="photo-band community" aria-hidden="true" />
+      <div className="photo-band community wave-photo" aria-hidden="true" />
       <Footer photoBand={false} />
     </main>
   );
