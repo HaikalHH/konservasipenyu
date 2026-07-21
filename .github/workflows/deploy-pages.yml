@@ -15,8 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PAGES_BASE_PATH: /konservasipenyu
-  NEXT_PUBLIC_SITE_URL: https://haikalhh.github.io/konservasipenyu
+  PAGES_BASE_PATH: ""
+  NEXT_PUBLIC_SITE_URL: https://konservasipenyupramuka.site
 
 jobs:
   build:
